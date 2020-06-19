@@ -8,4 +8,5 @@ The end user can fill out the values of CustomUrl.json to change the title and u
 
 The OutputDirectory.json file is used to configure the directory used to output the files. 
 
-
+# Personal disclaimer
+This is my own work and is in no way affliated with the BBC
