@@ -11,7 +11,7 @@ namespace ScoresAndHeadlines
     {
         private static async Task<string> SetOutputDirectory()
         {
-            var dir = await JsonReader.FullListOutput("FullListOutput.json");
+            var dir = await JsonReader.OutputDirectory("OutputDirectory.json");
             if (String.IsNullOrEmpty(dir))
             {
                 return @$"C:{Path.DirectorySeparatorChar}Temp";

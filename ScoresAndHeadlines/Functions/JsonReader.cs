@@ -34,7 +34,7 @@ namespace ScoresAndHeadlines
             return customUrl;
         }
 
-        public static async Task<string> FullListOutput(string fileName)
+        public static async Task<string> OutputDirectory(string fileName)
         {
             var reader = await Read(fileName).ConfigureAwait(false);
             string output = "";
@@ -42,7 +42,7 @@ namespace ScoresAndHeadlines
             while (reader.Read())
             {
                 JsonSerializer serializer = new JsonSerializer();
-                output = serializer.Deserialize<FullListOutput>(reader).OutputDirectory;
+                output = serializer.Deserialize<OutputDirectory>(reader).Dir;
             }
 
             return output;

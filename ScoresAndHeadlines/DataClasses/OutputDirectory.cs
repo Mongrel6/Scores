@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace ScoresAndHeadlines
 {
-    public class FullListOutput
+    public class OutputDirectory
     {
-        public string OutputDirectory { get; set; }       
+        public string Dir { get; set; }       
     }
 }

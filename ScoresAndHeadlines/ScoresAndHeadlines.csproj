@@ -15,7 +15,7 @@
     <None Update="CustomUrl.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="FullListOutput.json">
+    <None Update="OutputDirectory.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
